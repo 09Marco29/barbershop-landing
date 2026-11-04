@@ -2,7 +2,7 @@
 
 A responsive landing page for a fictional barbershop, built with plain HTML, CSS and JavaScript (no frameworks, no build step). It has a live "open now" badge, a price board that fills in the booking form, and a booking form with inline validation.
 
-**Live demo:** `https://<your-github-username>.github.io/barbershop-landing/`
+**Live demo:** https://09marco29.github.io/barbershop-landing/
 
 > Four Corners Barbers is a made-up business. The address, phone number and prices are placeholders.
 
