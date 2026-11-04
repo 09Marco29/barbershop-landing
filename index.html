@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Four Corners Barbers | Cuts, fades and hot-towel shaves</title>
+  <meta name="description" content="Four Corners Barbers: classic cuts, skin fades and hot-towel shaves. Book a chair online or walk in. (Fictional business, portfolio demo.)">
+  <meta name="theme-color" content="#11243E">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Four Corners Barbers, back to top">Four Corners</a>
+    <nav class="nav" aria-label="Main">
+      <a href="#services">Prices</a>
+      <a href="#visit">Hours</a>
+      <a class="nav-cta" href="#book">Book a chair</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="pole" aria-hidden="true"><div class="pole-stripes"></div></div>
+      <div class="hero-copy">
+        <p class="status" id="open-status" role="status" aria-live="polite">Checking hours…</p>
+        <h1>Your chair is waiting.</h1>
+        <p class="lead">Classic cuts, skin fades and hot-towel shaves since 1998. Book ahead, or walk in: we keep every other chair open for walk-ins until 4&nbsp;PM on weekdays.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#book">Book a chair</a>
+          <a class="btn btn-ghost" href="#services">See prices</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="services" aria-labelledby="services-title">
+      <div class="wrap">
+        <h2 id="services-title">What a cut costs</h2>
+        <p class="section-intro">Every price includes a neck shave and a hot towel. Pick a service and we will fill in the booking form for you.</p>
+        <ul class="price-board" id="price-board">
+          <li class="price-row">
+            <span class="svc-name">Classic cut</span>
+            <span class="svc-time">30 min</span>
+            <span class="leader" aria-hidden="true"></span>
+            <span class="svc-price">$28</span>
+            <button type="button" class="book-link" data-service="classic-cut">Book<span class="sr-only"> Classic cut</span></button>
+          </li>
+          <li class="price-row">
+            <span class="svc-name">Skin fade</span>
+            <span class="svc-time">40 min</span>
+            <span class="leader" aria-hidden="true"></span>
+            <span class="svc-price">$32</span>
+            <button type="button" class="book-link" data-service="skin-fade">Book<span class="sr-only"> Skin fade</span></button>
+          </li>
+          <li class="price-row">
+            <span class="svc-name">Beard trim and line-up</span>
+            <span class="svc-time">20 min</span>
+            <span class="leader" aria-hidden="true"></span>
+            <span class="svc-price">$18</span>
+            <button type="button" class="book-link" data-service="beard-trim">Book<span class="sr-only"> Beard trim and line-up</span></button>
+          </li>
+          <li class="price-row">
+            <span class="svc-name">Hot-towel shave</span>
+            <span class="svc-time">30 min</span>
+            <span class="leader" aria-hidden="true"></span>
+            <span class="svc-price">$30</span>
+            <button type="button" class="book-link" data-service="hot-towel-shave">Book<span class="sr-only"> Hot-towel shave</span></button>
+          </li>
+          <li class="price-row">
+            <span class="svc-name">Cut and beard</span>
+            <span class="svc-time">55 min</span>
+            <span class="leader" aria-hidden="true"></span>
+            <span class="svc-price">$44</span>
+            <button type="button" class="book-link" data-service="cut-and-beard">Book<span class="sr-only"> Cut and beard</span></button>
+          </li>
+          <li class="price-row">
+            <span class="svc-name">Kids' cut, under 12</span>
+            <span class="svc-time">25 min</span>
+            <span class="leader" aria-hidden="true"></span>
+            <span class="svc-price">$20</span>
+            <button type="button" class="book-link" data-service="kids-cut">Book<span class="sr-only"> Kids' cut</span></button>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section section-tint" id="visit" aria-labelledby="visit-title">
+      <div class="wrap visit-grid">
+        <div>
+          <h2 id="visit-title">Hours</h2>
+          <table class="hours" id="hours-table">
+            <caption class="sr-only">Opening hours</caption>
+            <thead class="sr-only"><tr><th scope="col">Day</th><th scope="col">Hours</th></tr></thead>
+            <tbody>
+              <tr data-days="1"><th scope="row">Monday</th><td>9 AM to 7 PM</td></tr>
+              <tr data-days="2"><th scope="row">Tuesday</th><td>9 AM to 7 PM</td></tr>
+              <tr data-days="3"><th scope="row">Wednesday</th><td>9 AM to 7 PM</td></tr>
+              <tr data-days="4"><th scope="row">Thursday</th><td>9 AM to 7 PM</td></tr>
+              <tr data-days="5"><th scope="row">Friday</th><td>9 AM to 7 PM</td></tr>
+              <tr data-days="6"><th scope="row">Saturday</th><td>8 AM to 5 PM</td></tr>
+              <tr data-days="0"><th scope="row">Sunday</th><td>Closed</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div>
+          <h2>Find us</h2>
+          <address>
+            418 Alder Street<br>
+            Corner of Alder and Fourth<br>
+            <a href="tel:+15550142">(555) 0142</a>
+          </address>
+          <p class="note">Walk-ins are first come, first served. If you are running late, call us and we will hold your chair for 10 minutes.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="book" aria-labelledby="book-title">
+      <div class="wrap book-wrap">
+        <div class="book-intro">
+          <h2 id="book-title">Book a chair</h2>
+          <p class="section-intro">Send a request and we will confirm by email within one business day. Fields marked with an asterisk are required.</p>
+        </div>
+
+        <div class="form-panel">
+          <div id="form-errors" class="error-summary" role="alert" tabindex="-1" hidden></div>
+
+          <form id="booking-form" novalidate data-endpoint="">
+            <div class="field">
+              <label for="name">Full name <span class="req" aria-hidden="true">*</span></label>
+              <input id="name" name="name" type="text" autocomplete="name" required minlength="2" maxlength="60" aria-describedby="name-error">
+              <p class="error" id="name-error" hidden></p>
+            </div>
+
+            <div class="field-row">
+              <div class="field">
+                <label for="email">Email <span class="req" aria-hidden="true">*</span></label>
+                <input id="email" name="email" type="email" autocomplete="email" required maxlength="100" aria-describedby="email-error">
+                <p class="error" id="email-error" hidden></p>
+              </div>
+              <div class="field">
+                <label for="phone">Phone <span class="optional">(optional)</span></label>
+                <input id="phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" maxlength="20" aria-describedby="phone-error">
+                <p class="error" id="phone-error" hidden></p>
+              </div>
+            </div>
+
+            <div class="field">
+              <label for="service">Service <span class="req" aria-hidden="true">*</span></label>
+              <select id="service" name="service" required aria-describedby="service-error">
+                <option value="">Choose a service</option>
+                <option value="classic-cut">Classic cut, $28</option>
+                <option value="skin-fade">Skin fade, $32</option>
+                <option value="beard-trim">Beard trim and line-up, $18</option>
+                <option value="hot-towel-shave">Hot-towel shave, $30</option>
+                <option value="cut-and-beard">Cut and beard, $44</option>
+                <option value="kids-cut">Kids' cut, under 12, $20</option>
+              </select>
+              <p class="error" id="service-error" hidden></p>
+            </div>
+
+            <div class="field-row">
+              <div class="field">
+                <label for="date">Preferred date <span class="req" aria-hidden="true">*</span></label>
+                <input id="date" name="date" type="date" required aria-describedby="date-error">
+                <p class="error" id="date-error" hidden></p>
+              </div>
+              <div class="field">
+                <label for="time">Preferred time <span class="req" aria-hidden="true">*</span></label>
+                <select id="time" name="time" required aria-describedby="time-error" disabled>
+                  <option value="">Pick a date first</option>
+                </select>
+                <p class="error" id="time-error" hidden></p>
+              </div>
+            </div>
+
+            <div class="field">
+              <label for="notes">Anything we should know? <span class="optional">(optional)</span></label>
+              <textarea id="notes" name="notes" rows="4" maxlength="300" aria-describedby="notes-count"></textarea>
+              <p class="counter" id="notes-count">300 characters left</p>
+            </div>
+
+            <button class="btn btn-primary btn-submit" type="submit" id="submit-btn">Request appointment</button>
+          </form>
+
+          <div id="confirmation" class="confirmation" tabindex="-1" hidden>
+            <h3>Request sent</h3>
+            <p id="confirmation-text"></p>
+            <button type="button" class="btn btn-ghost" id="new-request">Make another request</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <p class="footer-brand">Four Corners Barbers</p>
+      <p class="footer-note">Four Corners Barbers is a fictional business. This site is a portfolio project by Marco Ruiz.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
